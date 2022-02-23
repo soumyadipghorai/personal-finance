@@ -1,0 +1,184 @@
+date ,item_name ,item_category ,price 
+11/29/2021,tea ,food,10
+11/29/2021,cold coffe,food,35
+11/29/2021,flat coffe,food,10
+11/29/2021,biscuits,food,10
+11/29/2021,medicine ,medicine,500
+11/29/2021,handwash,utilities,100
+11/29/2021,bin bag ,utilities,60
+11/29/2021,water ,food,30
+11/29/2021,tissue ,utilities,48
+11/29/2021,sticky notes ,study_materials,50
+11/30/2021,tea ,food,20
+11/30/2021,hooks,utilities,80
+11/30/2021,rubber,utilities,30
+12/1/2021,tea ,food,20
+12/1/2021,egg,food,60
+12/1/2021,hooks,utilities,100
+12/2/2021,tea ,food,30
+12/2/2021,light ,wants,180
+12/2/2021,hook,food,80
+12/3/2021,tea ,food,30
+12/3/2021,shake ,food,40
+12/3/2021,hook,utilities,80
+12/3/2021,"cake, biscuit ",food,70
+12/3/2021,key,utilities,120
+12/3/2021,beggar ,charity,4
+12/4/2021,tea ,food,30
+12/4/2021,banana,food,30
+12/4/2021,juice ,food,25
+12/5/2021,tea ,food,30
+12/5/2021,singare ,food,30
+12/6/2021,xerox,study_materials,40
+12/6/2021,tea,food,20
+12/7/2021,tea,food,30
+12/7/2021,biritani,food,120
+12/8/2021,tea,food,20
+12/8/2021,chilli chiken ,food,100
+12/9/2021,tea,food,10
+12/9/2021,egg,food,30
+12/10/2021,tea,food,20
+12/10/2021,bigbazar,food,257
+12/10/2021,random,charity,100
+12/11/2021,tea,food,10
+12/11/2021,samosa,food,15
+12/11/2021,chicken,food,100
+12/12/2021,tea,food,10
+12/12/2021,car ,travel,487
+12/12/2021,banana,food,5
+12/12/2021,lunch,food,40
+12/12/2021,sweet,food,35
+12/12/2021,print,study_materials,40
+12/12/2021,car,travel,487
+12/12/2021,coke,food,40
+12/13/2021,tea ,food,30
+12/13/2021,chips ,food,10
+12/14/2021,tea,food,20
+12/14/2021,xeorx,study_materials,20
+12/15/2021,tea,food,30
+12/15/2021,water ,utilities,20
+12/15/2021,shake ,food,40
+12/16/2021,tea,food,20
+12/17/2021,tea,food,30
+12/17/2021,biriyani,food,100
+12/17/2021,chips ,food,20
+12/18/2021,tea,food,30
+12/18/2021,chilli chicken ,food,70
+12/19/2021,tea,food,30
+12/20/2021,tea,food,40
+12/20/2021,chips,food,20
+12/20/2021,airport,travel,234
+12/20/2021,dumdum,travel,450
+12/21/2021,metro,travel,40
+12/21/2021,haircut,utilities,60
+12/21/2021,cold drinks,food,50
+12/21/2021,slice,food,10
+12/21/2021,Victoria pass,wants,40
+12/21/2021,toto,travel,20
+12/22/2021,metro,travel,40
+12/22/2021,momo,food,234
+12/22/2021,fruity,food,10
+12/22/2021,toto,travel,20
+12/22/2021,print,study_materials,30
+12/23/2021,print,study_materials,40
+12/23/2021,metro,travel,40
+12/23/2021,toto,travel,30
+12/23/2021,biscuits,food,60
+12/23/2021,bus ,travel,200
+12/24/2021,momo,food,200
+12/24/2021,petrol,utilities,100
+12/25/2021,petrol,utilities,110
+12/26/2021,cold drinks,food,30
+12/26/2021,shooting game,wants,20
+12/26/2021,pop corn,food,40
+12/27/2021,burger ,food,162
+12/28/2021,pokora,food,40
+12/29/2021,notebook,study_materials,100
+12/30/2021,NULL,NULL,0
+12/31/2021,momo,food,60
+12/31/2021,toto,travel,30
+12/31/2021,mtero,travel,15
+12/31/2021,gift,utilities,290
+01/01/2022,icecream,food,30
+01/01/2022,metro,travel,30
+01/01/2022,toto,travel,20
+01/02/2022,cold drinks,food,38
+01/02/2022,ola,travel,800
+01/03/2022,tea,food,70
+01/04/2022,tea,food,20
+01/04/2022,water ,utilities,30
+01/05/2022,tea,food,20
+01/05/2022,gift ,wants,400
+01/06/2022,tea,food,10
+01/06/2022,uber,travel,425
+01/06/2022,KFC,food,425
+01/06/2022,paratha,food,86
+01/07/2022,toto,travel,20
+01/07/2022,bus,travel,120
+01/09/2022,dhania,utilities,10
+01/16/2022,snacks ,charity,10
+01/17/2022,pokore ,food,10
+01/20/2022,gift,wants,125
+01/24/2022,notebook,study_materials,25
+01/28/2022,pokore ,food,20
+01/28/2022,juice ,food,10
+01/28/2022,print out,study_materials,10
+01/29/2022,recharge,wants,2899
+01/29/2022,bus,travel,150
+01/29/2022,snaks ,food,40
+01/29/2022,momo,food,200
+01/29/2022,metro,travel,20
+01/29/2022,toto,travel,10
+01/30/2022,bus,travel,15
+01/30/2022,train,travel,5
+01/30/2022,corn,food,10
+01/30/2022,bus,travel,10
+01/30/2022,metro,travel,20
+01/30/2022,donate,charity,20
+01/30/2022,KFC,food,300
+01/30/2022,bus,travel,250
+01/30/2022,snacks,food,65
+01/30/2022,toto ,travel,30
+01/31/2022,meal,food,70
+01/31/2022,dinner,food,310
+02/01/2022,toto,travel,10
+02/01/2022,bus ,travel,100
+02/01/2022,feed an old,charity,80
+02/01/2022,treker,travel,45
+02/01/2022,sweet,wants,200
+02/02/2022,notebook,study_materials,100
+02/02/2022,shirt,wants,450
+02/03/2022,pokora,food,50
+02/03/2022,biscuits,wants,50
+02/03/2022,shirt,wants,1319
+02/05/2022,boating,wants,200
+02/05/2022,donated,charity,40
+02/06/2022,bus,travel,150
+02/06/2022,snacks,food,30
+02/06/2022,toto,travel,10
+02/06/2022,metro,travel,25
+02/06/2022,pizza,food,567
+02/07/2022,taxi,travel,1196
+02/08/2022,tea,food,20
+02/08/2022,dinner,food,140
+02/09/2022,tea,food,10
+02/09/2022,thumpsUp,food,20
+02/09/2022,bike ,wants,325
+02/09/2022,helmet,wants,150
+02/09/2022,petrol,wants,100
+02/10/2022,tea ,food,20
+02/11/2022,tea ,food,20
+02/12/2022,tea,food,10
+02/13/2022,grocerry ,utilities,899
+02/13/2022,auto,travel,40
+02/13/2022,tea,food,10
+02/14/2022,tea,food,20
+02/14/2022,SSD,study_materials,4550
+02/15/2022,tea ,food,25
+02/15/2022,petrol ,travel,150
+02/15/2022,extra km ,travel,312
+02/15/2022,lunch ,food,175
+02/15/2022,donate,charity,15
+02/16/2022,tea,food,10
+02/16/2022,soap ,utilities,55
+02/16/2022,lunch,food,140
