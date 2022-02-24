@@ -2,6 +2,13 @@ import streamlit as st
 from finance import PersonalFinance as pf
 
 df = pf()
+ 
+PAGE_CONFIG = {"page_title":"Personal Finance", 
+            #    "page_icon":image, 
+               "layout":"centered", 
+               "initial_sidebar_state":"auto"}
+
+st.set_page_config(**PAGE_CONFIG)
 
 st.sidebar.markdown("## Controls")
 # sidebar_main = st.sidebar.selectbox('Navigation', ['About the Project', 'EDA', 'Predictions', 'Q&A'])
@@ -20,7 +27,7 @@ if sidebar_main == 'About the Project' :
     st.dataframe(df.read_data('primary').head())
  
 elif sidebar_main == 'EDA' : 
-    st.title('Expsnse dashboard')
+    st.title('Expense dashboard')
     sidebar_sub = st.sidebar.radio('Navigation', ['Expense', 'Category', 'boxplot', 'total expenses', 'treemap'])
     
     data = df.preprocess_dataframe()
