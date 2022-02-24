@@ -7,13 +7,12 @@ st.sidebar.markdown("## Controls")
 # sidebar_main = st.sidebar.selectbox('Navigation', ['About the Project', 'EDA', 'Predictions', 'Q&A'])
 sidebar_main = st.sidebar.selectbox('Navigation', ['About the Project', 'EDA', 'Q&A'])
 
-
 if sidebar_main == 'About the Project' : 
     st.title('Personal Finance Dashboard')
     st.markdown("""
-        ##### Since when I moved to Bangalore I've been monitoring my expanses and this is my dashboard 
+        ##### Since when I moved to Bangalore I've been monitoring my expenses and this is my dashboard 
     """)
-    st.image('static/hero.gif', caption = 'Personal Finance')
+    st.image('static/compressed_heroimage.gif', caption = 'Personal Finance')
 
     st.markdown("""
     ###### The dataset looks some what like this 
@@ -22,7 +21,7 @@ if sidebar_main == 'About the Project' :
  
 elif sidebar_main == 'EDA' : 
     st.title('Expsnse dashboard')
-    sidebar_sub = st.sidebar.radio('Navigation', ['Expense', 'Category', 'boxplot', 'total expanses'])
+    sidebar_sub = st.sidebar.radio('Navigation', ['Expense', 'Category', 'boxplot', 'total expenses', 'treemap'])
     
     data = df.preprocess_dataframe()
 
@@ -36,7 +35,7 @@ elif sidebar_main == 'EDA' :
 
         st.markdown(
             """
-            ##### Check the expanses 
+            ##### Check the expenses 
             """
         )
         # col1, col2, col3 = st.columns(3)
@@ -50,10 +49,10 @@ elif sidebar_main == 'EDA' :
         #     val2 = st.button('click me once more')
         
         if monthly : 
-            st.plotly_chart(df.plot_expanses('month'))
+            st.plotly_chart(df.plot_expenses('month'))
 
         else : 
-            st.plotly_chart(df.plot_expanses('date'))
+            st.plotly_chart(df.plot_expenses('date'))
 
     elif sidebar_sub == 'Category' :
         st.markdown(
@@ -80,14 +79,22 @@ elif sidebar_main == 'EDA' :
         else: 
             st.plotly_chart(df.plot_boxplot('food'))
 
-    else : 
+    elif sidebar_sub == 'total expenses' : 
         st.markdown(
             """
-            ##### Total Expanses 
+            ##### Total Expenses 
             """
         ) 
         st.plotly_chart(df.total_spending()[0])
         st.write('Total amount spent is ',df.total_spending()[1])
+
+    else : 
+        st.markdown(
+            """
+            ##### Spending on items 
+            """
+        ) 
+        st.plotly_chart(df.plot_treemap())
 
 # elif sidebar_main == 'Predictions' : 
 #     pass 
@@ -120,3 +127,34 @@ else :
     
     if check : 
         st.write('I have done ', df.find_max('wants')[0], ' on ', df.find_max('wants')[2].date(), ' for ', df.find_max('wants')[1])
+
+footer="""
+    <style>
+        a:link , a:visited{
+            color: blue;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:hover,  a:active {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+    </style>
+    <div class="footer">
+        <p>Developed with ❤️ by <a style= text-align: center;'><b>Soumyadip Ghorai</b></a></p>
+        <p><a href = 'https://datascience-dailys.herokuapp.com/' target = '_blank'>github</a></p>
+    </div>
+"""
+st.markdown(footer,unsafe_allow_html=True)

@@ -25,6 +25,7 @@ class PersonalFinance :
                 'price ' : 'price'    
                 }, axis = 1, inplace = True)
 
+        df.dropna(inplace = True)
         date = df.date.str.split('/', expand =True)
 
         df['month'] = date[0]
@@ -46,7 +47,7 @@ class PersonalFinance :
         
         return df 
 
-    def plot_expanses(self, value) :
+    def plot_expenses(self, value) :
         df = self.preprocess_dataframe()
         if value == 'date' : 
             date_df = df.groupby(['date'])['price'].sum().reset_index()
@@ -84,7 +85,17 @@ class PersonalFinance :
     def total_spending(self) : 
         df = pd.read_csv(self.additional_data)
         df = df.T.reset_index()
-        total_expanse = df[0].iloc[4]
+        total_expense = df[0].iloc[4]
         df = df.drop(4)
         fig = px.pie(df, names = 'index', values = 0, color_discrete_sequence=px.colors.sequential.RdBu)
-        return fig, total_expanse
+        return fig, total_expense
+
+    def plot_treemap(self) : 
+        df = self.preprocess_dataframe()
+        dummy_df = df.rename(columns = {'price' : 'total spending'})
+        fig = px.treemap(
+            dummy_df, path = [px.Constant('total spending'), 'item_name'], color='total spending',
+            values = 'total spending', color_continuous_scale='reds',
+        )
+
+        return fig
