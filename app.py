@@ -1,7 +1,7 @@
 import streamlit as st
-from finance import PersonalFinance as pf
+from finance import PersonalFinance
 
-df = pf()
+df = PersonalFinance()
  
 PAGE_CONFIG = {"page_title":"Personal Finance", 
             #    "page_icon":image, 
@@ -24,13 +24,13 @@ if sidebar_main == 'About the Project' :
     st.markdown("""
     ###### The dataset looks some what like this 
     """)
-    st.dataframe(df.read_data('primary').head())
+    st.dataframe(df.read_data('primary').tail())
  
 elif sidebar_main == 'EDA' : 
     st.title('Expense dashboard')
     sidebar_sub = st.sidebar.radio('Navigation', ['Expense', 'Category', 'boxplot', 'total expenses', 'treemap'])
     
-    data = df.preprocess_dataframe()
+    data = df.preprocess_dataframe().tail()
 
     st.markdown(
             """
@@ -154,14 +154,14 @@ footer="""
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: white;
+            background-color: transparent;
             color: black;
             text-align: center;
         }
     </style>
     <div class="footer">
         <p>Developed with ❤️ by <a style= text-align: center;'><b>Soumyadip Ghorai</b></a></p>
-        <p><a href = 'https://datascience-dailys.herokuapp.com/' target = '_blank'>github</a></p>
+        <p><a href = 'https://github.com/soumyadipghorai/personal-finance' target = '_blank'>github</a></p>
     </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
