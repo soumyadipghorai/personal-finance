@@ -22,51 +22,45 @@ Since when I moved to Bangalore I've been monitoring my expenses. Every night I 
 
 ------------------------------- 
 
-<!-- ## Document Structure 
+## Document Structure 
 
 ```
 Personal Finance 
 │
-|---- cliff
-│   |
-|   |---- __pycache__ 
-|   |       |---
-|   |
-|   |---- spiders
-|   |   |---- __pycache__
-|   |   |   |---
-|   |   |
-|   |   |---- __init__.py
-|   |   |---- spider_all.py
-|   |   |---- spider1.py
-|   |   |---- spider2.py
-|   |
-|   |---- __init__.py
-|   |---- items.py
-|   |---- middlewares.py
-|   |---- pipelines.py
-|   |---- settings.py
-│
-|---- data
-|   |---- clothes_and_shoes.json
-|   |---- clothes.json
-|   |---- shoes.json
+|---- __pycache__
 |
-|---- query
-|   |---- query.js
+|---- .streamlit
+|   |---- config.toml
 |
+|---- data 
+|   |---- bangalore - item.csv
+|   |---- bangalore - Total_spending.csv
+|
+|---- demo 
+|   |---- __pycache__
+|   |---- data
+|   |   |---- bangalore - item.csv
+|   |   |---- bangalore - Total_spending.csv
+|   |
+|   |---- demoapp.py
+|   |---- democalss.py
+|   |---- README.md
+|   
 |---- results
-│    │---- part2-question answers.pdf
-│    │---- Screenshot1.jpg
-│    │---- Screenshot2.jpg
-│    │---- Screenshot3.jpg
-│      
-│   
-|---- commands.txt
+|
+|---- static
+|   |---- compressed_heroimage.gif
+|   |---- hero_image.gif
+|
+|---- app.py
+|---- exploratory_data_analysis.ipynb
+|---- finance.py
+|---- Procfile 
 |---- README.md
-|---- scrapy.cfg
+|---- requirements.txt
+|---- setup.sh
 
-``` -->
+```
 
 <br>
 <br>
