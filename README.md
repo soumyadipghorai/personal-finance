@@ -2,6 +2,10 @@
 
 Since when I moved to Bangalore I've been monitoring my expenses. Every night I used to fill the data in an Excel sheet. And this is my personal finance dashboard where I have plotted various charts representing my spendings...
 
+<p align = 'center' >
+    <img alt = 'home_image' width = 550px src = 'results/screenshot.png'>
+</p>
+
 ----------------------------
 
 ## Approach : 
@@ -61,8 +65,20 @@ Personal Finance
 |---- setup.sh
 
 ```
+---------------------
+## Technologies used : 
 
-<br>
+* python library - numpy, pandas, seaborn, matplotlib, streamlit
+* version control - git 
+* backend - streamlit
+* concept - OOP
+
+## Tools and Services : 
+* IDE - Vs code 
+* Application Deployment - Heroku
+* Code Repository - GitHub
+
+-----------------------
 <br>
 
 # If you Liked this project the you can consider connecting with me:
