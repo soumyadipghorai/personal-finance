@@ -56,7 +56,12 @@ elif sidebar_main == 'EDA' :
         #     val2 = st.button('click me once more')
         
         if monthly : 
-            st.plotly_chart(df.plot_expenses('month'))
+            st.plotly_chart(df.plot_expenses('month')[0])
+            percent = df.plot_expenses('month')[1]
+            if percent > 0 : 
+                st.write('which is ',percent,'%',' higher than prev month')
+            else : 
+                st.write('which is ',abs(percent),'%',' lower than prev month')
 
         else : 
             st.plotly_chart(df.plot_expenses('date'))
@@ -75,14 +80,20 @@ elif sidebar_main == 'EDA' :
             ##### Category wise boxplot 
             """
         ) 
-        col1, col2 = st.columns(2)
+        col1, col2, col3 = st.columns(3)
         with col1 : 
             food = st.button('food') 
 
         with col2 :  
             travel = st.button('travel')
+        
+        with col3 :  
+            wants = st.button('wants')
+
         if travel :
             st.plotly_chart(df.plot_boxplot('travel'))
+        if wants :
+            st.plotly_chart(df.plot_boxplot('wants'))
         else: 
             st.plotly_chart(df.plot_boxplot('food'))
 
