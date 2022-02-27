@@ -1,5 +1,6 @@
 import streamlit as st
 from finance import PersonalFinance
+import markdown as md
 
 df = PersonalFinance()
  
@@ -12,9 +13,9 @@ st.set_page_config(**PAGE_CONFIG)
 
 st.sidebar.markdown("## Controls")
 # sidebar_main = st.sidebar.selectbox('Navigation', ['About the Project', 'EDA', 'Predictions', 'Q&A'])
-sidebar_main = st.sidebar.selectbox('Navigation', ['About the Project', 'EDA', 'Q&A'])
+sidebar_main = st.sidebar.selectbox('Navigation', ['Home', 'EDA', 'Q&A', 'About the Project'])
 
-if sidebar_main == 'About the Project' : 
+if sidebar_main == 'Home' : 
     st.title('Personal Finance Dashboard')
     st.markdown("""
         ##### Since when I moved to Bangalore I've been monitoring my expenses and this is my dashboard 
@@ -114,8 +115,10 @@ elif sidebar_main == 'EDA' :
         ) 
         st.plotly_chart(df.plot_treemap())
 
-# elif sidebar_main == 'Predictions' : 
-#     pass 
+elif sidebar_main == 'About the Project' : 
+    st.markdown(
+            md.aboutpage()
+        ) 
 
 else : 
     # dropdown
@@ -146,33 +149,5 @@ else :
     if check : 
         st.write('I have done ', df.find_max('wants')[0], ' on ', df.find_max('wants')[2].date(), ' for ', df.find_max('wants')[1])
 
-footer="""
-    <style>
-        a:link , a:visited{
-            color: blue;
-            background-color: transparent;
-            text-decoration: underline;
-        }
-
-        a:hover,  a:active {
-            color: red;
-            background-color: transparent;
-            text-decoration: underline;
-        }
-
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: transparent;
-            color: black;
-            text-align: center;
-        }
-    </style>
-    <div class="footer">
-        <p>Developed with ❤️ by <a style= text-align: center;'><b>Soumyadip Ghorai</b></a></p>
-        <p><a href = 'https://github.com/soumyadipghorai/personal-finance' target = '_blank'>github</a></p>
-    </div>
-"""
+footer = md.footerSection()
 st.markdown(footer,unsafe_allow_html=True)

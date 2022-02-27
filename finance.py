@@ -11,9 +11,9 @@ class PersonalFinance :
 
         # self.sheet_id = '1JkDMZ_sdU0aoRP9EI3hkfiER3iSVYYQpC-CGzK9NNAc'
         # self.main_sheet_name = 'item'
-        self.additional_sheet_name = 'Total_spending'
+        # self.additional_sheet_name = 'Total_spending'
         self.main_data = 'data/bangalore  - item.csv'
-        # self.additional_data = 'data/bangalore  - Total_spending.csv'
+        self.additional_data = 'data/bangalore  - Total_spending.csv'
         # self.main_data = f'https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={main_sheet_name}'
 
     def read_data(self, data) : 
