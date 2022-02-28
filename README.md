@@ -3,7 +3,7 @@
 Since when I moved to Bangalore I've been monitoring my expenses. Every night I used to fill the data in an Excel sheet. And this is my personal finance dashboard where I have plotted various charts representing my spendings...
 
 <p align = 'center' >
-    <img alt = 'home_image' width = 550px src = 'results/Screenshot.png'>
+    <video alt = 'home_image' width = 550px src = 'results/Personal Finance.mp4'>
 </p>
 
 ----------------------------
@@ -51,6 +51,8 @@ Personal Finance
 |   |---- README.md
 |   
 |---- results
+|   |---- Personal Finance.mp4
+|   |---- Screenshot.png
 |
 |---- static
 |   |---- compressed_heroimage.gif
@@ -59,6 +61,7 @@ Personal Finance
 |---- app.py
 |---- exploratory_data_analysis.ipynb
 |---- finance.py
+|---- markdown.py
 |---- Procfile 
 |---- README.md
 |---- requirements.txt
