@@ -23,7 +23,7 @@ class PersonalFinance :
             # df.dropna(axis = 1, inplace = True)
             df = pd.read_csv(self.main_data)
         return df
-
+ 
     def preprocess_dataframe(self) : 
         # link = f'https://docs.google.com/spreadsheets/d/{self.sheet_id}/gviz/tq?tqx=out:csv&sheet={self.main_sheet_name}'
         # df = pd.read_csv(link)

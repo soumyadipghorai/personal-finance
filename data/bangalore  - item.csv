@@ -94,7 +94,6 @@ date ,item_name ,item_category ,price
 12/27/2021,burger ,food,162
 12/28/2021,pokora,food,40
 12/29/2021,notebook,study_materials,100
-12/30/2021,NULL,NULL,0
 12/31/2021,momo,food,60
 12/31/2021,toto,travel,30
 12/31/2021,mtero,travel,15
@@ -197,3 +196,22 @@ date ,item_name ,item_category ,price
 02/23/2022,lunch ,food,150
 02/24/2022,tea,food,10
 02/24/2022,snacks,food,45
+02/25/2022,tea,food,20
+02/25/2022,child education,charity,100
+02/25/2022,snacks ,food,120
+02/25/2022,chips ,food,10
+02/26/2022,tea,food,10
+02/26/2022,dinner,food,86
+02/27/2022,tea,food,10
+02/28/2022,tea,food,10
+03/01/2022,tea,food,10
+03/01/2022,sleeper,utilities,110
+03/01/2022,xerox,study_materials,5
+03/01/2022,sent home,charity,1000
+03/02/2022,tea,food,30
+03/02/2022,lunch,food,159
+03/03/2022,tea,food,10
+03/03/2022,bus,travel,15
+03/04/2022,tea,food,10
+03/04/2022,bus,travel,10
+03/04/2022,tea,food,10
