@@ -1,7 +1,6 @@
 import streamlit as st
 from finance import PersonalFinance
 import markdown as md
-
 df = PersonalFinance()
  
 PAGE_CONFIG = {"page_title":"Personal Finance", 
@@ -20,8 +19,10 @@ if sidebar_main == 'Home' :
     st.markdown("""
         ##### Since when I moved to Bangalore I've been monitoring my expenses and this is my dashboard 
     """)
-    st.image('static/compressed_heroimage.gif', caption = 'Personal Finance')
-
+    # st.image('static/compressed_heroimage.gif', caption = 'Personal Finance')
+    banner = md.headerSection()
+    st.markdown(banner,unsafe_allow_html=True)
+    
     st.markdown("""
     ###### The dataset looks some what like this 
     """)
@@ -150,4 +151,4 @@ else :
         st.write('I have done ', df.find_max('wants')[0], ' on ', df.find_max('wants')[2].date(), ' for ', df.find_max('wants')[1])
 
 footer = md.footerSection()
-st.markdown(footer,unsafe_allow_html=True)
+st.markdown(footer,unsafe_allow_html=True) 

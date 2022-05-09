@@ -215,3 +215,193 @@ date ,item_name ,item_category ,price
 03/04/2022,tea,food,10
 03/04/2022,bus,travel,10
 03/04/2022,tea,food,10
+03/05/2022,tea,food,10
+03/06/2022,tea,food,10
+03/06/2022,cake ,food,30
+03/06/2022,chips ,food,10
+03/06/2022,coke,food,20
+03/07/2022,tea,food,10
+03/07/2022,bus,travel,15
+03/07/2022,chips ,food,20
+03/08/2022,tea,food,10
+03/08/2022,bus,travel,15
+03/09/2022,tea,food,20
+03/09/2022,chips ,food,10
+03/10/2022,tea,food,10
+03/10/2022,bus,travel,15
+03/11/2022,tea,food,40
+03/11/2022,bus,travel,20
+03/11/2022,yulu,wants,224
+03/12/2022,tea,food,10
+03/12/2022,bus,travel,15
+03/12/2022,snacks ,food,40
+03/12/2022,dinner,food,150
+03/12/2022,donated ,charity,5
+03/13/2022,tea,food,20
+03/13/2022,bike ,travel,140
+03/13/2022,auto,travel,220
+03/13/2022,lunch,food,150
+03/14/2022,tea,food,10
+03/14/2022,bus,travel,15
+03/15/2022,tea,food,40
+03/15/2022,chips,food,10
+03/16/2022,tea,food,50
+03/16/2022,lunch ,food,170
+03/17/2022,tea,food,20
+03/17/2022,chips,food,10
+03/18/2022,tea,food,20
+03/18/2022,color,wants,10
+03/18/2022,chips,food,10
+03/19/2022,tea,food,30
+03/19/2022,auto,travel,39
+03/19/2022,club,wants,110
+03/19/2022,dinner,food,110
+03/20/2022,tea,food,10
+03/21/2022,tea,food,10
+03/21/2022,bus,travel,20
+03/22/2022,tea,food,10
+03/22/2022,bus,travel,15
+03/22/2022,dinner,food,320
+03/23/2022,tea,food,10
+03/23/2022,bus,travel,15
+03/24/2022,tea,food,10
+03/24/2022,egg puff,food,32
+03/24/2022,bus,travel,15
+03/25/2022,tea,food,10
+03/25/2022,egg puff,food,18
+03/25/2022,bus,travel,15
+03/25/2022,tea,food,30
+03/26/2022,tea,food,10
+03/26/2022,xerox,study_materials,55
+03/26/2022,bus,travel,20
+03/26/2022,milk shake,food,50
+03/26/2022,swarma,food,120
+03/26/2022,petrol,travel,160
+03/26/2022,yulu,travel,100
+03/26/2022,auto,travel,60
+03/26/2022,pepsi,food,20
+03/27/2022,tea,food,20
+03/27/2022,biscuit ,food,20
+03/28/2022,tea,food,30
+03/28/2022,bus,travel,15
+03/29/2022,tea,food,10
+03/29/2022,bus,travel,15
+03/29/2022,fresh lime soda,food,40
+03/29/2022,dinner,food,150
+03/30/2022,tea,food,10
+03/30/2022,bus,travel,15
+03/31/2022,tea,food,10
+03/31/2022,bus,travel,15
+03/31/2022,fresh lime soda,food,140
+04/01/2022,tea,food,10
+04/01/2022,bus,travel,15
+04/01/2022,milk shake,food,40
+04/02/2022,tea,food,10
+04/02/2022,bus,travel,15
+04/02/2022,milk shake,food,80
+04/02/2022,dinner,food,270
+04/03/2022,tea,food,10
+04/03/2022,rapido,travel,125
+04/03/2022,bus,travel,30
+04/03/2022,roll,food,58
+04/03/2022,milk shake,food,50
+04/03/2022,yulu,travel,70
+04/03/2022,turf,wants,150
+04/04/2022,tea,food,10
+04/05/2022,bus,travel,15
+04/06/2022,coke,food,42
+04/05/2022,tea,food,10
+04/05/2022,yulu,travel,70
+04/05/2022,chips,food,10
+04/06/2022,tea,food,20
+04/06/2022,yulu,travel,80
+04/07/2022,tea,food,20
+04/07/2022,yulu,travel,54
+04/08/2022,tea,food,20
+04/08/2022,yulu,travel,62
+04/09/2022,tea,food,20
+04/09/2022,dinner,food,50
+04/10/2022,tea,food,20
+04/10/2022,breakfast,food,28
+04/11/2022,tea,food,20
+04/11/2022,bus,travel,15
+04/11/2022,yulu,travel,50
+04/12/2022,tea,food,10
+04/12/2022,yulu,travel,300
+04/12/2022,bus,travel,15
+04/13/2022,tea,food,10
+04/13/2022,lunch,food,80
+04/13/2022,bus,travel,20
+04/14/2022,tea,food,10
+04/14/2022,colgate,utilities,20
+04/14/2022,breakfast,food,56
+04/14/2022,milk shake,food,80
+04/14/2022,ola,travel,140
+04/14/2022,dinner,food,373
+04/15/2022,tea,food,10
+04/16/2022,tea,food,10
+04/16/2022,dinner ,food,150
+04/17/2022,tea,food,10
+04/17/2022,washing powder,utilities,10
+04/17/2022,tea,food,10
+04/17/2022,breakfast,food,28
+04/18/2022,tea,food,10
+04/18/2022,chips,food,10
+04/19/2022,tea,food,10
+04/19/2022,dinner,food,165
+04/20/2022,tea,food,10
+04/20/2022,mirinda,food,20
+04/20/2022,yulu,travel,300
+04/21/2022,tea,food,10
+04/21/2022,bus,travel,15
+04/21/2022,panipuri,food,50
+04/21/2022,DTDC,utilities,300
+04/22/2022,tea,food,10
+04/22/2022,snacks ,food,56
+04/23/2022,tea,food,10
+04/23/2022,dinner,food,300
+04/24/2022,tea,food,10
+04/24/2022,breakfast,food,38
+04/24/2022,massage ,wants,130
+04/24/2022,auto ,travel,135
+04/25/2022,tea,food,20
+04/25/2022,dinner,food,50
+04/26/2022,tea,food,10
+04/26/2022,treat,food,80
+04/27/2022,tea,food,10
+04/27/2022,treat,food,60
+04/28/2022,tea,food,10
+04/28/2022,bus,travel,20
+04/29/2022,tea,food,10
+04/29/2022,bus,travel,15
+04/30/2022,tea,food,10
+04/30/2022,auto,travel,160
+04/30/2022,dinner,food,430
+05/01/2022,tea,food,10
+05/01/2022,breakfast,food,55
+05/01/2022,dinner,food,100
+05/01/2022,thumpsup,food,40
+05/01/2022,shirt,wants,1330
+05/02/2022,tea,food,10
+05/02/2022,breakfast,food,38
+05/02/2022,lunch,food,100
+05/03/2022,tea,food,10
+05/04/2022,tea,food,10
+05/04/2022,bus,travel,15
+05/04/2022,chanda,charity,100
+05/05/2022,tea,food,10
+05/05/2022,bus,travel,15
+05/05/2022,juice,food,10
+05/06/2022,tea,food,10
+05/06/2022,bus,travel,15
+05/06/2022,juice,food,20
+05/06/2022,lunch,food,152
+05/07/2022,tea,food,10
+05/07/2022,dinner,food,110
+05/07/2022,headphone,wants,1200
+05/08/2022,tea,food,20
+05/09/2022,tea,food,10
+05/09/2022,breakfast,food,90
+05/09/2022,bus,travel,15
+05/09/2022,yulu,travel,182
+05/09/2022,donated ,charity,100

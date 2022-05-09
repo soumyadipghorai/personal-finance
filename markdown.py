@@ -83,3 +83,16 @@ def footerSection() :
             </div>
         """
     return text 
+def headerSection() : 
+    text = """
+            <style>
+                .responsive {
+                    max-width: 100%;
+                    height: auto;
+                }
+            </style>
+            <div class="banner-image">
+                <img src="https://www.trioticz.com/wp-content/uploads/2021/10/3012b5fa53a077ca0b26f5ceb39ab633-1.gif" alt="banner image"  class="responsive">
+            </div>
+        """
+    return text 
