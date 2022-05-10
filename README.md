@@ -3,7 +3,7 @@
 Since when I moved to Bangalore I've been monitoring my expenses. Every night I used to fill the data in an Excel sheet. And this is my personal finance dashboard where I have plotted various charts representing my spendings...
 
 <p align = 'center' >
-    <video alt = 'home_image' width = 550px src = 'results/Personal Finance.mp4'>
+    <img alt = 'home_image' src = 'results/result.gif'>
 </p>
 
 ----------------------------
