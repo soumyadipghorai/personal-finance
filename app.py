@@ -19,6 +19,8 @@ if sidebar_main == 'Home' :
     st.markdown("""
         ##### Since when I moved to Bangalore I've been monitoring my expenses and this is my dashboard 
     """)
+    
+    # * unable to use direct images due to library issue 
     # st.image('static/compressed_heroimage.gif', caption = 'Personal Finance')
     banner = md.headerSection()
     st.markdown(banner,unsafe_allow_html=True)
@@ -47,19 +49,19 @@ elif sidebar_main == 'EDA' :
             ##### Check the expenses 
             """
         ) 
-        # col1, col2, col3 = st.columns(3)
+        
         col1, col2 = st.columns(2)
         with col1 : 
             daily = st.button('Daily') 
 
         with col2 :  
             monthly = st.button('Monthly')
-        # with col3 : 
-        #     val2 = st.button('click me once more')
         
         if monthly : 
             st.plotly_chart(df.plot_expenses('month')[0])
+            # st.dataframe(df.plot_expenses('month')[2])
             percent = df.plot_expenses('month')[1]
+
             if percent > 0 : 
                 st.write('which is ',percent,'%',' higher than prev month')
             else : 
