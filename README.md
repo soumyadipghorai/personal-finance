@@ -1,5 +1,10 @@
 # Personal Finance : 
 
+## 🌟 Featured on Streamlit community forum 🌟
+![coverage](https://img.shields.io/badge/coverage-100%25-green) 
+![version](https://img.shields.io/badge/version-0.4.1-blue)
+<!-- everything tested  -->
+
 Since when I moved to Bangalore I've been monitoring my expenses. Every night I used to fill the data in an Excel sheet. And this is my personal finance dashboard where I have plotted various charts representing my spendings...
 
 <p align = 'center' >
@@ -15,6 +20,15 @@ Since when I moved to Bangalore I've been monitoring my expenses. Every night I 
 * Then I have made another file <code>finance.py</code> to implement all the functions related to preprocessing and plotting
 
 * I have imported the same file in <code>app.py</code> and used it along with streamlit to build the app.
+
+------------------------------
+
+## Features : 
+
+* Shows multiple analytical charts to help me better understand my spendings.
+* Can be connected to the database and automated. 
+* Answers few predefined quick QNA type questions. 
+* Responsive layout, can be opened in any device. 
 
 ------------------------------
 
@@ -69,6 +83,15 @@ Personal Finance
 
 ```
 ---------------------
+<p align="left">
+    <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
+    <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
+    <img src="https://img.shields.io/badge/numpy-%23F7931E.svg?style=for-the-badge&logo=numpy&logoColor=white">
+    <img src="https://img.shields.io/badge/streamlit-%23F05033.svg?style=for-the-badge&logo=streamlit&logoColor=white">
+    <img src="https://img.shields.io/badge/plotly-%037FFC.svg?style=for-the-badge&logo=plotly&logoColor=white">
+    <img src="https://img.shields.io/badge/vscode-%23190458.svg?style=for-the-badge&logo=visualstudio&logoColor=white">
+</p>
+
 ## Technologies used : 
 
 * python library - numpy, pandas, seaborn, matplotlib, streamlit
