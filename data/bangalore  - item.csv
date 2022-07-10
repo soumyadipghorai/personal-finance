@@ -405,3 +405,173 @@ date ,item_name ,item_category ,price
 05/09/2022,bus,travel,15
 05/09/2022,yulu,travel,182
 05/09/2022,donated ,charity,100
+05/10/2022,tea,food,30
+05/10/2022,lunch,food,135
+05/10/2022,dinner,food,250
+05/11/2022,tea,food,10
+05/11/2022,bus,travel,25
+05/11/2022,lunch,food,91
+05/12/2022,tea,food,10
+05/12/2022,bus,travel,20
+05/12/2022, coke,food,20
+05/12/2022,xerox,study_materials,32
+05/13/2022,tea,food,10
+05/13/2022,bus,travel,20
+05/14/2022,tea,food,20
+05/14/2022,lunch ,food,150
+05/14/2022,petrol ,wants,200
+05/14/2022,coke ,food,15
+05/14/2022,dinner,food,280
+05/15/2022,breakfast,food,48
+05/15/2022,calculator ,study_materials,1280
+05/15/2022,juice,food,20
+05/15/2022,KFC,food,330
+05/16/2022,tea ,food,20
+05/16/2022,chips,food,10
+05/17/2022,tea,food,20
+05/17/2022,powder,utilities,10
+05/17/2022,lunch ,food,170
+05/17/2022,dessert ,food,90
+05/18/2022,tea,food,20
+05/18/2022,lunch ,food,70
+05/19/2022,tea,food,20
+05/19/2022,lunch,food,70
+05/19/2022,sting ,food,20
+05/19/2022,pen,study_materials,4
+05/20/2022,tea,food,20
+05/20/2022,lunch ,food,240
+05/20/2022,juice ,food,40
+05/21/2022,tea,food,20
+05/21/2022,dinner ,food,120
+05/21/2022,sting ,food,20
+05/22/2022,tea,food,20
+05/22/2022,sting ,food,40
+05/22/2022,breakfast,food,40
+05/23/2022,tea,food,20
+05/23/2022,cab,travel,55
+05/23/2022,dinner ,food,185
+05/24/2022,tea,food,30
+05/24/2022,breakfast,food,40
+05/24/2022,tiffin,food,25
+05/24/2022,gift ,wants,3282
+05/25/2022,tea,food,20
+05/25/2022,breakfast,food,40
+05/25/2022,sting ,food,20
+05/25/2022,lunch ,food,50
+05/26/2022,tea,food,20
+05/26/2022,cab ,travel,400
+05/26/2022,lunch,food,400
+05/26/2022,penalty,utilities,500
+05/27/2022,toto,travel,20
+05/27/2022,metro,travel,50
+05/27/2022,snacks ,food,240
+05/28/2022,auto,travel,40
+05/28/2022,bus,travel,20
+05/28/2022,toto,travel,20
+05/28/2022,jeans,wants,1400
+05/28/2022,gift ,wants,800
+05/28/2022,timezone,wants,600
+05/28/2022,faluda,food,475
+05/28/2022,water,food,10
+05/29/2022,toto,travel,10
+05/29/2022,metro,travel,20
+05/29/2022,bus,travel,200
+05/29/2022,water,food,20
+05/30/2022,gel,wants,110
+05/31/2022,snack ,food,60
+06/01/2022,doi ,food,130
+06/02/2022,med,medicine,130
+06/02/2022,chop,food,30
+06/03/2022,thumpsup,food,20
+06/04/2022,bus,travel,200
+06/04/2022,metro ,travel,10
+06/04/2022,snacks ,food,70
+06/04/2022,water,food,10
+06/04/2022,ola,travel,200
+06/05/2022,backpack,wants,3000
+06/05/2022,bike,travel,113
+06/05/2022,bus,travel,220
+06/05/2022,snacks ,food,40
+06/06/2022,car,travel,100
+06/06/2022,breakfast,food,20
+06/06/2022,ice cream,food,25
+06/06/2022,snacks ,food,86
+06/07/2022,cold drinks,food,40
+06/08/2022,lunch,food,270
+06/08/2022,momo,food,230
+06/09/2022,bus,travel,300
+06/09/2022,snacks,food,75
+06/09/2022,metro,travel,20
+06/09/2022,toto,travel,10
+06/10/2022,lunch,food,300
+06/10/2022,ice cream,food,109
+06/10/2022,auto,travel,45
+06/10/2022,toto,travel,30
+06/10/2022,metro,travel,40
+06/10/2022,train,travel,10
+06/10/2022,water,food,30
+06/11/2022,lunch,food,1200
+06/11/2022,dinner ,food,460
+06/12/2022,dressup,wants,100
+06/12/2022,cap,wants,110
+06/12/2022,lunch,food,500
+06/12/2022,dinner,food,600
+06/12/2022,breakfast,food,210
+06/12/2022,snacks,food,200
+06/12/2022,pass,travel,120
+06/13/2022,breakfast,food,260
+06/13/2022,lunch,food,600
+06/14/2022,entry,travel,90
+06/14/2022,coffee,food,60
+06/14/2022,snacks,food,1350
+06/15/2022,lunch,food,550
+06/15/2022,snacks,food,740
+06/16/2022,lunch,food,893
+06/16/2022,snacks,food,10
+06/16/2022,dinner,food,812
+06/17/2022,breakfast,food,593
+06/17/2022,snacks,food,40
+06/18/2022,lunch,food,1000
+06/18/2022,sweet,food,50
+06/18/2022,cake,food,50
+06/19/2022,train,travel,5
+06/19/2022,toto,travel,40
+06/19/2022,metro ,travel,30
+06/20/2022,toto,travel,10
+06/20/2022,metro ,travel,20
+06/20/2022,water ,food,20
+06/20/2022,bus,travel,120
+06/20/2022,pastry,food,85
+06/21/2022,tea,food,5
+06/22/2022,snack,food,55
+06/23/2022,snack ,food,140
+06/24/2022,tea,food,20
+06/25/2022,chop,food,30
+06/26/2022,med,medicine,200
+06/26/2022,biriyani,food,200
+06/26/2022,icecream,food,90
+06/27/2022,snacks,food,50
+06/28/2022,petrol,travel,100
+06/28/2022,chanda,charity,10
+06/28/2022,gift,wants,550
+06/29/2022,chop,food,30
+06/30/2022,horse riding,wants,100
+06/30/2022,wow momo,food,270
+07/01/2022,snacks,food,30
+07/02/2022,chop,food,40
+07/03/2022,bus,travel,200
+07/04/2022,choclates ,food,65
+07/05/2022,frooti ,food,10
+07/06/2022,snacks,food,125
+07/07/2022,snacks,food,38
+07/08/2022,momo,food,200
+07/09/2022,bus,travel,200
+07/09/2022,snacks,food,75
+07/09/2022,toto,travel,20
+07/09/2022,metro,travel,20
+07/09/2022,donated ,food,35
+07/10/2022,rapido ,travel,93
+07/10/2022,auto,travel,40
+07/10/2022,snacks ,food,10
+07/10/2022,toto,travel,10
+07/10/2022,train,travel,5

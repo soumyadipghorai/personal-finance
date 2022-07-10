@@ -150,7 +150,7 @@ else :
         check = st.button('check', key = 3)
     
     if check : 
-        st.write('I have done ', df.find_max('wants')[0], ' on ', df.find_max('wants')[2].date(), ' for ', df.find_max('wants')[1])
+        st.write('I have spent on ', df.find_max('wants')[0], ' on ', df.find_max('wants')[2].date(), ' for ', df.find_max('wants')[1])
 
 footer = md.footerSection()
 st.markdown(footer,unsafe_allow_html=True) 
