@@ -13,7 +13,7 @@ st.set_page_config(**PAGE_CONFIG)
 st.sidebar.markdown("## Controls")
 # sidebar_main = st.sidebar.selectbox('Navigation', ['About the Project', 'EDA', 'Predictions', 'Q&A'])
 sidebar_main = st.sidebar.selectbox('Navigation', ['Home', 'EDA', 'Q&A', 'About the Project'])
-
+ 
 if sidebar_main == 'Home' : 
     st.title('Personal Finance Dashboard')
     st.markdown("""
