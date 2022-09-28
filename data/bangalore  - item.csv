@@ -736,3 +736,25 @@ date ,item_name ,item_category ,price
 09/10/2022,lunch,food,70
 09/11/2022,lunch,food,70
 09/12/2022,watch ,utilities,150
+09/12/2022,dinner,food,
+09/13/2022,tea,food,10
+09/14/2022,fish,food,60
+09/15/2022,breakfast,food,30
+09/15/2022,lunch,food,155
+09/16/2022,chips,food,10
+09/17/2022,dinner ,food,365
+09/17/2022,lunch,food,70
+09/18/2022,breakfast ,food,30
+09/19/2022,dinner,food,450
+09/20/2022,chips,food,10
+09/20/2022,tea,food,10
+09/21/2022,lunch,food,155
+09/22/2022,breakfast,food,30
+09/23/2022,tea,food,10
+09/24/2022,dinner,food,175
+09/25/2022,breakfast,food,40
+09/26/2022,tea,food,10
+09/26/2022,dinner,food,371
+09/27/2022,breakfast,food,20
+09/27/2022,lunch,food,50
+09/27/2022,chips,food,10
