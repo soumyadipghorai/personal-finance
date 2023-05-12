@@ -758,3 +758,543 @@ date ,item_name ,item_category ,price
 09/27/2022,breakfast,food,20
 09/27/2022,lunch,food,50
 09/27/2022,chips,food,10
+09/28/2022,lunch,food,155
+09/29/2022,breakfast,food,40
+09/30/2022,tea,food,10
+10/01/2022,dinner,food,150
+10/02/2022,breakfast,food,30
+10/02/2022,tea,food,12
+10/02/2022,dinner,food,155
+10/03/2022,tea,food,10
+10/03/2022,breakfast,food,120
+10/03/2022,dinner,food,120
+10/03/2022,swarma,food,100
+10/04/2022,dinner,food,282
+10/05/2022,lunch,food,50
+10/06/2022,breakfast,food,30
+10/06/2022,coffee,food,55
+10/07/2022,chips ,food,10
+10/08/2022,tea,food,10
+10/08/2022,pizza,food,392
+10/08/2022,dinner,food,240
+10/08/2022,ice-cream,food,55
+10/09/2022,breakfast,food,40
+10/09/2022,cold drinks,food,20
+10/10/2022,tea,food,10
+10/10/2022,dinner,food,240
+10/11/2022,tea,food,10
+10/11/2022,lunch,food,150
+10/12/2022,lunch,food,50
+10/12/2022,tea,food,10
+10/13/2022,tea,food,10
+10/13/2022,xerox,study_materials,5
+10/14/2022,dinner,food,310
+10/14/2022,coffee,food,100
+10/14/2022,perfume,wants,1495
+10/15/2022,dinner,food,160
+10/15/2022,xerox,study_materials,10
+10/16/2022,auto ,travel,235
+10/16/2022,bus,travel,30
+10/16/2022,lunch,food,140
+10/17/2022,dinner,food,220
+10/17/2022,tea,food,10
+10/18/2022,banana,food,25
+10/18/2022,lunch,food,50
+10/19/2022,tea,food,10
+10/20/2022,lunch,food,50
+10/21/2022,tea,food,10
+10/21/2022,chips,food,10
+10/22/2022,lunch,food,88
+10/22/2022,tea,food,10
+10/22/2022,kfc,food,491
+10/23/2022,toilet ,utilities,10
+10/23/2022,colgate ,utilities,10
+10/23/2022,tea,food,10
+10/23/2022,bike,travel,1200
+10/23/2022,petrol,travel,210
+10/23/2022,lunch,food,210
+10/23/2022,cold drinks,food,10
+10/23/2022,charity,charity,10
+10/23/2022,room rent,wants,600
+10/23/2022,cold drinks,food,40
+10/23/2022,dinner,food,390
+10/24/2022,surfing,wants,1800
+10/24/2022,lunch,food,290
+10/24/2022,cold drinks,food,45
+10/24/2022,petrol ,travel,350
+10/24/2022,juice,food,160
+10/25/2022,petrol,travel,70
+10/25/2022,fruits,food,20
+10/25/2022,room rent,wants,1000
+10/25/2022,gift,wants,560
+10/25/2022,biriyani,food,230
+10/25/2022,tea,food,20
+10/25/2022,ice-cream,food,40
+10/25/2022,dinner,food,90
+10/26/2022,lunch,food,70
+10/27/2022,tea,food,10
+10/27/2022,breakfast,food,25
+10/28/2022,lunch,food,170
+10/28/2022,tea,food,4
+10/29/2022,dinner,food,215
+10/29/2022,tea,food,8
+10/30/2022,lunch,food,75
+10/31/2022,lunch,food,85
+11/01/2022,dinner,food,365
+11/01/2022,auto ,travel,115
+11/02/2022,lunch,food,55
+11/03/2022,lunch,food,65
+11/03/2022,cold drink,food,20
+11/04/2022,lunch,food,55
+11/04/2022,tea,food,10
+11/05/2022,tea,food,10
+11/05/2022,cake ,food,15
+11/06/2022,breakfast,food,30
+11/06/2022,lunch,food,50
+11/07/2022,dinner,food,350
+11/07/2022,auto,travel,135
+11/07/2022,lunch,food,40
+11/08/2022,breakfast,food,30
+11/08/2022,xerox,study_materials,30
+11/08/2022,tea,food,10
+11/08/2022,lunch,food,50
+11/08/2022,sting,food,20
+11/09/2022,breakfast,food,30
+11/09/2022,lunch,food,90
+11/09/2022,cold drinks,food,20
+11/10/2022,breakfast,food,40
+11/10/2022,dinner,food,150
+11/10/2022,lunch,food,45
+11/11/2022,breakfast,food,30
+11/11/2022,lunch,food,60
+11/12/2022,snacks,food,20
+11/12/2022,dinner,food,230
+11/12/2022,tea,food,10
+11/12/2022,lunch,food,50
+11/13/2022,lunch,food,60
+11/13/2022,breakfast,food,20
+11/13/2022,coffe,food,10
+11/13/2022,sugar,utilities,15
+11/14/2022,dinner,food,165
+11/15/2022,lunch,food,40
+11/15/2022,turf,wants,90
+11/15/2022,auto,food,135
+11/16/2022,lunch,food,155
+11/16/2022,dinner,food,20
+11/17/2022,book,wants,240
+11/17/2022,lunch,food,88
+11/18/2022,tea,food,10
+11/18/2022,chips,food,10
+11/19/2022,tea,food,10
+11/19/2022,lunch,food,45
+11/19/2022,xerox ,study_materials,10
+11/19/2022,dinner,food,165
+11/20/2022,breakfast,food,50
+11/20/2022,bus,travel,30
+11/20/2022,bike,travel,250
+11/20/2022,snacks,food,90
+11/20/2022,icecream,food,25
+11/21/2022,dinner ,food,190
+11/21/2022,lunch ,food,65
+11/22/2022,lunch,food,45
+11/22/2022,tea,food,10
+11/22/2022,breakfast ,food,30
+11/23/2022,tea,food,10
+11/23/2022,lunch,food,190
+11/24/2022,breakfast,food,30
+11/24/2022,lunch,food,65
+11/25/2022,chips,food,10
+11/25/2022,tea,food,10
+11/26/2022,lunch ,food,90
+11/26/2022,dinner ,food,160
+11/27/2022,breakfast,food,50
+11/28/2022,dinner,food,200
+11/28/2022,lunch,food,45
+11/29/2022,tea,food,10
+11/30/2022,lunch,food,185
+11/30/2022,tea,food,10
+12/01/2022,tea,food,10
+12/01/2022,breakfast,food,30
+12/02/2022,chips,food,20
+12/03/2022,lunch,food,45
+12/03/2022,dinner,food,200
+12/04/2022,breakfast,food,30
+12/04/2022,tea,food,10
+12/05/2022,dinner,food,200
+12/06/2022,lunch,food,45
+12/06/2022,tea,food,10
+12/07/2022,lunch,food,185
+12/08/2022,breakfast,food,30
+12/09/2022,xerox,study_materials,10
+12/09/2022,tea,food,10
+12/10/2022,dinner,food,200
+12/10/2022,xerox,study_materials,10
+12/10/2022,tea,food,10
+12/11/2022,breakfast,food,30
+12/11/2022,auto,travel,200
+12/11/2022,bus,travel,30
+12/12/2022,lunch,food,45
+12/12/2022,dinner,food,200
+12/13/2022,lunch,food,45
+12/13/2022,breakfast,food,30
+12/14/2022,lunch,food,200
+12/15/2022,lunch,food,45
+12/15/2022,tea,food,10
+12/16/2022,tea,food,20
+12/16/2022,breakfast,food,30
+12/17/2022,car ,travel,450
+12/17/2022,dinner,food,350
+12/17/2022,snacks,food,87
+12/17/2022,lunch,food,200
+12/17/2022,car ,travel,150
+12/18/2022,metro,travel,60
+12/18/2022,toto,travel,20
+12/19/2022,toto,travel,20
+12/19/2022,metro ,travel,60
+12/19/2022,icecream ,food,100
+12/19/2022,snacks ,food,10
+12/20/2022,metro ,travel,20
+12/20/2022,toto,travel,20
+12/20/2022,bus,travel,10
+12/20/2022,snacks ,food,50
+12/21/2022,cap ,wants,200
+12/21/2022,trek ,travel,1700
+12/22/2022,trek ,travel,1700
+12/23/2022,trek ,travel,1700
+12/24/2022,hotel,travel,1700
+12/25/2022,car,travel,1700
+12/26/2022,bus,travel,35
+12/26/2022,bus,travel,15
+12/26/2022,bus,travel,20
+12/26/2022,metro ,travel,30
+12/26/2022,icecream,food,100
+12/26/2022,metro ,travel,30
+12/26/2022,car,travel,20
+12/27/2022,bus,travel,20
+12/27/2022,tea,food,10
+12/28/2022,snacks,food,30
+12/29/2022,snacks,food,20
+12/30/2022,chop,food,20
+12/31/2022,picnic ,wants,474
+12/31/2022,petrol ,travel,100
+01/01/2023,snacks ,food,10
+01/02/2023,snacks ,food,120
+01/03/2023,petrol ,wants,100
+01/04/2023,chop,food,40
+01/05/2023,chop ,food,30
+01/06/2023,toto ,travel,30
+01/07/2023,snacks,food,20
+01/08/2023,bus,travel,35
+01/09/2023,dinner,food,200
+01/09/2023,cake,food,10
+01/10/2023,breakfast ,food,30
+01/11/2023,auto ,travel,35
+01/11/2023,lunch,food,220
+01/12/2023,dinner,food,120
+01/12/2023,snacks ,food,20
+01/13/2023,chips,food,10
+01/13/2023,lunch ,food,85
+01/13/2023,tea,food,10
+01/14/2023,dinner ,food,185
+01/14/2023,auto,travel,35
+01/14/2023,turf,wants,122
+01/14/2023,breakfast,food,30
+01/14/2023,lunch ,food,85
+01/15/2023,breakfast ,food,30
+01/15/2023,lunch,food,60
+01/16/2023,tea,food,30
+01/16/2023,lunch,food,90
+01/16/2023,dinner,food,165
+01/17/2023,tea,food,10
+01/17/2023,chikki,food,60
+01/18/2023,lunch,food,45
+01/19/2023,lunch,food,165
+01/20/2023,lunch,food,45
+01/21/2023,tea,food,10
+01/21/2023,chips,food,10
+01/22/2023,tea,food,22
+01/22/2023,dinner,food,185
+01/23/2023,tea,food,10
+01/24/2023,lunch,food,85
+01/24/2023,dinner,food,496
+01/24/2023,auto,travel,132
+01/25/2023,lunch,food,80
+01/26/2023,auto ,travel,220
+01/26/2023,breakfast,food,140
+01/26/2023,drink ,food,40
+01/26/2023,surf,utilities,10
+01/26/2023,registration,wants,285
+01/27/2023,lunch,food,45
+01/28/2023,dinner,food,165
+01/29/2023,turf,wants,93
+01/30/2023,noodle,food,100
+01/30/2023,ice cream ,food,15
+01/31/2023,lunch ,food,45
+02/01/2023,thumbs up,food,20
+02/02/2023,sugar,food,20
+02/02/2023,dinner,food,180
+02/02/2023,icecream,food,25
+02/03/2023,chips ,food,10
+02/03/2023,photo ,study_materials,100
+02/03/2023,recharge ,utilities,155
+02/03/2023,port ,utilities,300
+02/03/2023,cake,wants,183
+02/04/2023,dinner,food,155
+02/04/2023,lunch,food,45
+02/04/2023,tea,food,10
+02/05/2023,auto,travel,70
+02/05/2023,sweet,wants,105
+02/05/2023,bike,travel,110
+02/06/2023,car,travel,130
+02/06/2023,lunch,food,110
+02/06/2023,dinner,food,140
+02/07/2023,tea,food,10
+02/07/2023,car,travel,120
+02/07/2023,lunch,food,110
+02/08/2023,car,travel,110
+02/08/2023,lunch,food,110
+02/09/2023,dinner,food,155
+02/10/2023,chips,food,10
+02/11/2023,tea,food,10
+02/11/2023,lunch,food,40
+02/11/2023,dinner,food,155
+02/12/2023,lunch,food,40
+02/13/2023,dinner,food,100
+02/13/2023,lunch,food,45
+02/14/2023,chikki,food,55
+02/14/2023,cold drinks,food,20
+02/15/2023,car,travel,111
+02/16/2023,lassi,food,40
+02/16/2023,auto,travel,68
+02/16/2023,dentist,medicine,730
+02/17/2023,dinner,food,100
+02/17/2023,bus,travel,30
+02/17/2023,dinner,food,100
+02/18/2023,dentist ,medicine,4300
+02/18/2023,bus ,travel,20
+02/19/2023,bike,travel,60
+02/19/2023,milkshake,food,40
+02/19/2023,dinner,food,110
+02/19/2023,icecream,food,50
+02/19/2023,juice,food,20
+02/19/2023,breakfast ,food,40
+02/19/2023,lunch,food,85
+02/20/2023,dinner,food,155
+02/20/2023,chikki,food,60
+02/21/2023,lunch,food,45
+02/21/2023,dinner,food,100
+02/21/2023,cold drinks,food,20
+02/22/2023,cold drinks,food,20
+02/22/2023,lunch,food,110
+02/22/2023,car,travel,111
+02/23/2023,lunch,food,45
+02/23/2023,dinner,food,140
+02/24/2023,bus,travel,30
+02/24/2023,car,travel,45
+02/24/2023,chips,food,10
+02/24/2023,dinner,food,155
+02/25/2023,lunch,food,85
+02/25/2023,dinner,food,100
+02/26/2023,xerox,study_materials,5
+02/26/2023,auto,travel,247
+02/26/2023,bus,travel,30
+02/26/2023,tea,food,10
+02/27/2023,bus,travel,40
+02/27/2023,dinner,food,155
+02/28/2023,lunch,food,85
+02/28/2023,auto ,travel,60
+02/28/2023,dinner,food,1100
+03/01/2023,lunch,food,85
+03/01/2023,specs,wants,5890
+03/01/2023,tshirt,clothes,999
+03/02/2023,lunch,food,85
+03/02/2023,dinner,food,155
+03/03/2023,lunch,food,80
+03/04/2023,lunch,food,85
+03/04/2023,dinner,food,120
+03/04/2023,clothes,clothes,1110
+03/05/2023,juice ,food,40
+03/06/2023,jucie ,food,40
+03/06/2023,dinner,food,185
+03/06/2023,niddle thread,wants,35
+03/07/2023,lunch,food,95
+03/07/2023,bus ticket,travel,1064
+03/08/2023,pizza ,wants,340
+03/08/2023,thumbs up,food,20
+03/08/2023,color,wants,20
+03/08/2023,juice ,food,40
+03/09/2023,lunch,food,85
+03/09/2023,dinner,food,165
+03/10/2023,lunch,food,85
+03/10/2023,dinner,food,115
+03/11/2023,tea,food,10
+03/11/2023,dinner,food,170
+03/11/2023,icecream,food,25
+03/12/2023,lunch,food,95
+03/13/2023,milk shake,food,40
+03/14/2023,lunch,food,75
+03/15/2023,penatly,wants,149
+03/15/2023,bike,wants,552
+03/15/2023,lunch,food,170
+03/15/2023,thumbs up ,food,20
+03/15/2023,notebook,study_materials,125
+03/16/2023,lunch,food,75
+03/16/2023,dinner,food,155
+03/17/2023,lunch,food,20
+03/17/2023,juice,food,30
+03/18/2023,lunch,food,80
+03/18/2023,dinner,food,360
+03/19/2023,lunch,food,75
+03/20/2023,lunch,food,85
+03/20/2023,dinner,food,155
+03/20/2023,ice cream ,food,50
+03/21/2023,tea,food,10
+03/22/2023,lunch,food,95
+03/22/2023,thumbs up,food,20
+03/23/2023,lunch,food,155
+03/23/2023,dinner,food,120
+03/24/2023,tea,food,10
+03/24/2023,chikki,food,55
+03/25/2023,juice,food,40
+03/25/2023,dinner,food,40
+03/25/2023,ice cream,food,60
+03/26/2023,lunch,food,155
+03/27/2023,eggs,food,55
+03/27/2023,lunch,food,50
+03/27/2023,juice,food,40
+03/27/2023,kettle,utilities,120
+03/27/2023,dinner,food,175
+03/28/2023,lunch,food,85
+03/29/2023,lunch,food,155
+03/29/2023,thumps up,food,20
+03/30/2023,lunch,food,85
+03/30/2023,shopping,wants,270
+03/31/2023,lunch,food,75
+03/31/2023,bike,travel,203
+04/01/2023,xerox,study_materials,4
+04/01/2023,dinner,food,155
+04/01/2023,lunch,food,110
+04/02/2023,auto,travel,248
+04/02/2023,bus,travel,30
+04/02/2023,breakfast,food,20
+04/02/2023,lunch,food,128
+04/03/2023,lunch,food,85
+04/04/2023,lunch,food,75
+04/05/2023,lunch,food,155
+04/05/2023,thumps up,food,20
+04/05/2023,tea,food,10
+04/06/2023,bus,travel,990
+04/06/2023,dinner,food,180
+04/06/2023,thumps up ,food,20
+04/06/2023,lunch,food,85
+04/07/2023,bike,travel,275
+04/07/2023,petrol,travel,250
+04/07/2023,hotel,wants,596
+04/07/2023,lunch,food,215
+04/07/2023,surfing,wants,4000
+04/07/2023,juice,food,63
+04/07/2023,burger,food,438
+04/07/2023,pizza,food,343
+04/07/2023,tea,food,10
+04/08/2023,train,travel,700
+04/08/2023,auto,travel,70
+04/08/2023,icecream,food,75
+04/08/2023,bus,travel,180
+04/08/2023,tea,food,20
+04/08/2023,metro,travel,30
+04/08/2023,lunch,food,530
+04/08/2023,cold drinks ,food,40
+04/08/2023,dinner,food,250
+04/08/2023,donated,charity,10
+04/09/2023,auto,travel,250
+04/09/2023,lunch,food,85
+04/10/2023,lunch,food,155
+04/10/2023,dinner,food,710
+04/11/2023,dinner,food,120
+04/11/2023,lunch,food,95
+04/12/2023,chips,food,10
+04/12/2023,juice,food,45
+04/12/2023,thumps up,food,20
+04/13/2023,lunch,food,75
+04/13/2023,dinner,food,155
+04/13/2023,tea,food,10
+04/14/2023,lunch,food,95
+04/14/2023,tea,food,10
+04/15/2023,lunch,food,85
+04/15/2023,dinner,food,210
+04/15/2023,tea,food,10
+04/15/2023,breakfast ,food,190
+04/16/2023,metro,travel,218
+04/16/2023,hotel,wants,10314
+04/16/2023,cab,travel,1100
+04/16/2023,KFC,food,600
+04/17/2023,bike,travel,281
+04/18/2023,cab,travel,1278
+04/18/2023,cab,travel,354
+04/18/2023,charity,charity,20
+04/18/2023,ice cream,food,120
+04/18/2023,milk shae,food,105
+04/18/2023,massage ,wants,150
+04/19/2023,cold drinks,food,45
+04/19/2023,haircut ,utilities,60
+04/19/2023,metro,travel,30
+04/19/2023,bus,travel,200
+04/19/2023,drinks,food,60
+04/19/2023,charity,charity,30
+04/20/2023,chop,food,10
+04/20/2023,ice crem,food,50
+04/21/2023,tshirt ,clothes,400
+04/22/2023,ice cream,food,155
+04/22/2023,milk,food,27
+04/23/2023,chop,food,42
+04/24/2023,corn,food,40
+04/24/2023,fuchka,food,30
+04/24/2023,icecream,food,280
+04/25/2023,chop,food,74
+04/26/2023,tea,food,10
+04/27/2023,chop,food,30
+04/28/2023,cold drinks,food,40
+04/29/2023,xerox,study_materials,5
+04/29/2023,bus,travel,250
+04/29/2023,cab ,travel,67
+04/29/2023,snacks,food,60
+04/29/2023,metro,travel,30
+04/29/2023,toto,travel,10
+04/30/2023,cab ,travel,240
+04/30/2023,auto,travel,60
+04/30/2023,train,travel,5
+04/30/2023,toto,travel,10
+05/01/2023,cab,travel,421
+05/01/2023,bus,travel,250
+05/01/2023,chocolate,food,280
+05/02/2023,chop,food,20
+05/03/2023,roll,food,80
+05/04/2023,amul,food,140
+05/05/2023,bus,travel,4000
+05/05/2023,metro,travel,60
+05/05/2023,icecream,food,170
+05/05/2023,shirt,wants,1000
+05/05/2023,breakfast,food,70
+05/05/2023,bus,travel,35
+05/05/2023,cab,travel,154
+05/05/2023,bus,travel,250
+05/05/2023,dinner,food,546
+05/06/2023,lunch,food,175
+05/06/2023,tea,food,20
+05/06/2023,snacks,food,25
+05/06/2023,dinner ,food,792
+05/07/2023,report ,study_materials,270
+05/07/2023,whitner,food,25
+05/07/2023,lunch,food,85
+05/08/2023,tea,food,10
+05/08/2023,auto,travel,160
+05/08/2023,lunch,food,140
+05/09/2023,tea,food,10
+05/09/2023,breakfast,food,60
+05/09/2023,lunch,food,400
+05/09/2023,juice,food,60
+05/10/2023,lunch,food,95
+05/10/2023,cold drink,food,20
+05/11/2023,lunch,food,155
+05/11/2023,dinner,food,140
+05/11/2023,medicine,medicine,170

@@ -3,6 +3,15 @@ import numpy as np
 import plotly.express as px
 import plotly.figure_factory as ff
 import plotly.graph_objects as go
+from rich.logging import RichHandler
+import logging as LOGGING
+
+# LOGGING messages 
+FORMAT = "%(message)s"
+LOGGING.basicConfig(
+    level="NOTSET", format=FORMAT, datefmt="[%X]", handlers=[RichHandler()]
+)  
+logger = LOGGING.getLogger("rich")
 
 
 class PersonalFinance : 
@@ -58,19 +67,10 @@ class PersonalFinance :
 
         df.date = pd.to_datetime(df.date)
 
-        month_name = []
+        df['month_name'] = df.date.dt.month_name()
         
-        date_dict = { 
-            1 : 'Jan', 2 : 'Feb', 3 : 'Mar', 4 : 'Apr', 
-            5 : 'May', 6 : 'Jun', 7 : 'Jul', 8 : 'Aug',
-            9 : 'Sep', 10 : 'Oct', 11 : 'Nov', 12 : 'Dec'
-        }
+        LOGGING.debug('Preprocessing done')
 
-        for i in range(len(df)) : 
-            month_name.append(date_dict[df.month.iloc[i]])
-
-        df['month_name'] = month_name
-        
         return df 
 
     def plot_expenses(self, value) :
@@ -90,36 +90,23 @@ class PersonalFinance :
             return fig
 
         elif value == 'month' : 
-            dummy_df = df.groupby(['month', 'month_name', 'item_category'])['price'].sum().reset_index()
-            dummy_df = dummy_df[(dummy_df.month_name != 'Dec') & (dummy_df.month_name != 'Nov')]
-
-            fig = go.Figure()
-            counter, color_list = 0, ['#67001f', '#b2182b', '#d6604d', '#f4a582', '#fddbc7', '#b59f9f', '#d1e5f0']
-            month_list = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-
-            # * due to some sorting issues while plotting I have used predefined month names rather than using df month names 
-            for category in dummy_df.item_category.unique() :
-                temp_df = dummy_df[dummy_df.item_category == category]
-                temp_df.sort_values(by='month', inplace = True)
-                fig.add_trace(go.Bar(
-                    # x=temp_df.month_name,
-                    x = month_list[:len(dummy_df.month.unique())],
-                    y=temp_df.price,
-                    name= category,
-                    marker_color= color_list[counter]
-                ))
-
-                counter += 1 
+            df['month_year'] = df['date'].dt.to_period('M')
+            dummy_df = df.groupby(['month_year', 'item_category'])['price'].sum().reset_index()
+            dummy_df.month_year = dummy_df.month_year.astype(str)
+            fig = px.bar(
+                dummy_df, 
+                x="month_year", 
+                y="price", 
+                color="item_category", 
+                text_auto= '.2s', 
+                color_discrete_sequence=["#D30000", "#FF5733", "#D70040", "#C41E3A", "#D22B2B", '#8B0000', '#FF3131', '#FF0000']
+            )
             
-            monthly_spending_df = df.groupby(['month', 'month_name'])['price'].sum().reset_index()
-            monthly_spending_df = monthly_spending_df[
-                (monthly_spending_df.month_name != 'Dec') & (monthly_spending_df.month_name != 'Nov')
-            ]
+            monthly_spending_df = df.groupby(['month_year'])['price'].sum().reset_index()
             curr_month = monthly_spending_df['price'].iloc[len(monthly_spending_df)-1]
             prev_month = monthly_spending_df['price'].iloc[len(monthly_spending_df)-2]
             percent = 100*((curr_month - prev_month)/prev_month)
 
-            fig.update_layout(plot_bgcolor="white", barmode='group')
             return fig, round(percent,2), monthly_spending_df
 
     def share_of_category(self) : 
